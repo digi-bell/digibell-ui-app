@@ -1,10 +1,5 @@
 import * as React from 'react';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-//import { Link } from '@mui/material';
 import Divider from '@mui/material/Divider';
-import AssignmentIcon from '@mui/icons-material/Assignment';
 import { ListItem, TextField } from '@mui/material';
 import {Actionstep} from './Actionstep'
 
@@ -50,25 +45,6 @@ export const Steps =()=>{
       </ListItem>
       </>)}
       <Divider sx={{ my: 1 }} />
-      {/* <ListItemButton fullWidth href='/'>
-        <ListItemIcon>
-          <AssignmentIcon />
-        </ListItemIcon>
-        <ListItemText primary="Sidebar Icon 2" />
-      </ListItemButton>
-      <ListItemButton href='/'>
-        <ListItemIcon>
-          <AssignmentIcon />
-        </ListItemIcon>
-        <ListItemText primary="Sidebar Icon 3" />
-      </ListItemButton>
-      <ListItemButton href='/'>
-        <ListItemIcon>
-          <AssignmentIcon />
-        </ListItemIcon>
-        <ListItemText primary="Sidebar Icon 4" />
-      </ListItemButton>
-      <Divider sx={{ my: 1 }} /> */}
     </React.Fragment>
   )};
   

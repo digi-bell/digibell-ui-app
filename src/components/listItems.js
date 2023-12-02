@@ -7,7 +7,7 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 import Divider from '@mui/material/Divider';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import { ListItem, TextField, Typography } from '@mui/material';
