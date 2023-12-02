@@ -11,16 +11,13 @@ import IconButton from '@mui/material/IconButton';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import { Link } from '@mui/material';
 import Typography from '@mui/material/Typography';
-//import { mainListItems, secondaryListItems } from './listItems';
-
-
 
 function Copyright(props) {
     return (
       <Typography variant="body2" color="text.secondary" align="center" {...props}>
         {'Copyright '} &copy; {' '}
-        <Link color="inherit" href="https://cognizant.com/">
-          Ideathon
+        <Link color="inherit" href="https://digibell.org">
+          DigiBell
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
