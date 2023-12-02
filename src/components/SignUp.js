@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-export default function SignIn() {
+ export default function SignUp() {
 
   const handleSubmit = (event) => {
 
@@ -32,18 +32,26 @@ export default function SignIn() {
   return (
 
     <Container component="main" maxWidth="xs">
+
       <Box
+
         sx={{  
+
           marginTop: 8,
+
           display: "flex",
+
           flexDirection: "column",
+
           alignItems: "center",
+
         }}
+
       >
 
         <Typography component="h1" variant="h5">
 
-          Sign In
+          Create Your Account
 
         </Typography>
 
@@ -89,6 +97,24 @@ export default function SignIn() {
 
           />
 
+<TextField
+
+margin="normal"
+
+required
+
+fullWidth
+
+name="confirmPassword"
+
+label="Confirm Password"
+
+type="password"
+
+id="confirmPassword"
+
+/>
+
           <FormControlLabel
 
             control={<Checkbox value="remember" color="primary" />}
@@ -109,7 +135,7 @@ export default function SignIn() {
 
           >
 
-            Sign In
+            Sign Up
 
           </Button>
 
@@ -119,7 +145,7 @@ export default function SignIn() {
 
               <Link href="/reset" variant="body2">
 
-               Forgot password?
+                Forgot password?
 
               </Link>
 
@@ -127,9 +153,9 @@ export default function SignIn() {
 
             <Grid item>
 
-              <Link href="/signUp" variant="body2">
+              <Link href="/login" variant="body2">
 
-                {"Don't have an account? Sign Up"}
+                {"Already have an account? Sign In"}
 
               </Link>
 

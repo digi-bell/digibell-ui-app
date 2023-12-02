@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
-export default function SignIn() {
+export default function ResetPassword() {
 
   const handleSubmit = (event) => {
 
@@ -43,7 +43,7 @@ export default function SignIn() {
 
         <Typography component="h1" variant="h5">
 
-          Sign In
+          Reset Password
 
         </Typography>
 
@@ -69,34 +69,6 @@ export default function SignIn() {
 
           />
 
-          <TextField
-
-            margin="normal"
-
-            required
-
-            fullWidth
-
-            name="password"
-
-            label="Password"
-
-            type="password"
-
-            id="password"
-
-            autoComplete="current-password"
-
-          />
-
-          <FormControlLabel
-
-            control={<Checkbox value="remember" color="primary" />}
-
-            label="Remember me"
-
-          />
-
           <Button
 
             type="submit"
@@ -109,7 +81,7 @@ export default function SignIn() {
 
           >
 
-            Sign In
+            Reset Password
 
           </Button>
 
@@ -117,9 +89,9 @@ export default function SignIn() {
 
             <Grid item xs>
 
-              <Link href="/reset" variant="body2">
+              <Link href="/login" variant="body2">
 
-               Forgot password?
+                Know your password?
 
               </Link>
 
